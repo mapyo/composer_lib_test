@@ -1,5 +1,7 @@
 <?php
-namespase composer_lib_test;
+
+namespace composer_lib_test;
+
 class HelloWorld
 {
     public function sayHelloWorld()
