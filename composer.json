@@ -1,4 +1,20 @@
 {
   "name": "mapyo/composer_lib_test",
-  "description": "composer library"
+  "description": "composer library",
+
+  "repositories": [
+    { "packagist": false },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mapyo/composer_lib_test2.git"
+    }
+  ],
+  "require": {
+    "mapyo/composer_lib_test2": "dev-master"
+  },
+  "autoload": {
+      "psr-4": {
+          "Mapyo\\Lib\\": "src/"
+      }
+  }
 }
