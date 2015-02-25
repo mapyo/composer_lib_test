@@ -1,6 +1,6 @@
 <?php
 
-namespace composer_lib_test;
+namespace Mapyo\Lib;
 
 class HelloWorld
 {
