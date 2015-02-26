@@ -14,7 +14,7 @@
   },
   "autoload": {
       "psr-4": {
-          "Mapyo\\Lib\\": "src/"
+          "Mapyo\\Composer_Lib_Test\\": "src/"
       }
   }
 }
