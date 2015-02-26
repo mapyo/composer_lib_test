@@ -1,11 +1,14 @@
 <?php
 
-namespace composer_lib_test;
+namespace Mapyo\Lib;
 
 class HelloWorld
 {
     public function sayHelloWorld()
     {
-        echo 'Hello World!!';
+        echo 'Hello World!! test branch';
+
+        $good = \Mapyo\Lib2\GoodWorld();
+        $good->sayGoodWorld();
     }
 }
