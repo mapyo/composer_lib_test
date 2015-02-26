@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "mapyo/composer_lib_test2": "dev-master"
+    "mapyo/composer_lib_test2": "dev-master",
+    "monolog/monolog": "*"
   },
   "autoload": {
       "psr-4": {
