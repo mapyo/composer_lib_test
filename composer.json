@@ -6,7 +6,8 @@
     { "packagist": false },
     {
       "type": "vcs",
-      "url": "git@github.com:mapyo/composer_lib_test2.git"
+      "url": "git@github.com:mapyo/composer_lib_test2.git",
+      "url": "git@github.com:Seldaek/monolog.git"
     }
   ],
   "require": {
