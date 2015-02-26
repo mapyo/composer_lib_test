@@ -3,7 +3,6 @@
   "description": "composer library",
 
   "repositories": [
-    { "packagist": false },
     {
       "type": "vcs",
       "url": "git@github.com:mapyo/composer_lib_test2.git",
@@ -11,8 +10,7 @@
     }
   ],
   "require": {
-    "mapyo/composer_lib_test2": "dev-master",
-    "monolog/monolog": "*"
+    "monolog/monolog": "1.12.0"
   },
   "autoload": {
       "psr-4": {
