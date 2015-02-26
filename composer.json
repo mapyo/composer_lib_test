@@ -1,14 +1,7 @@
 {
-  "name": "mapyo/lib",
+  "name": "mapyo/composer_lib_test",
   "description": "composer library",
 
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:mapyo/composer_lib_test2.git",
-      "url": "git@github.com:Seldaek/monolog.git"
-    }
-  ],
   "require": {
     "monolog/monolog": "1.12.0"
   },
