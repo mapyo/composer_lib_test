@@ -1,6 +1,7 @@
 {
   "name": "mapyo/composer_lib_test",
   "description": "composer library",
+  "type": "library",
 
   "require": {
     "monolog/monolog": "1.12.0"
